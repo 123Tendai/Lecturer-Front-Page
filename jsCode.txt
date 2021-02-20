@@ -1,0 +1,11 @@
+function myFunction(event) {
+    var studentData1 = document.getElementById("tag1").value;
+    alert("Students fullName " + studentData1);
+    var studentData2 = document.getElementById("tag2").value;
+    alert("Email Address - " + studentData2);
+    var studentData3 = document.getElementById("tag3").value;
+    alert("Phone number: " + studentData3);
+    var studentData4 = document.getElementById("tag4").value;
+    alert("Degree type: " + studentData4);
+    
+}

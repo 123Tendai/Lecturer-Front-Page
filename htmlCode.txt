@@ -1,0 +1,30 @@
+ <section class="student">
+      <h1 class="contact-heading">New Students Form</h1>
+      <form class="contact_form ">
+        <div class="input-group">
+          <label class="label">Full Name </label>
+          <input type="text" name="fullname" class="contact-input" 
+          placeholder="Student Name" required id="tag1"/>
+        </div>
+        <div class="input-groups">
+          <div class="input-group">
+          <label class="label">Email</label>
+          <input type="email" name="email" class="contact-input" 
+          placeholder="Student Email:" required id="tag2"/>
+        </div>
+        <div class="input-group">
+          <div class="input-group">
+          <label class="label">Phone</label>
+          <input type="number" name="phone" class="contact-input" 
+          placeholder="Student Phone Number:" required id="tag3"/>
+        </div>
+        </div>
+        <div class="input-group">
+          <label class="label">Degree</label>
+          <input type="text" name="degree" class="contact-input"
+          placeholder="Student Degree" required id="tag4"/>
+        </div>
+        <input name="submit" type="submit" value="Submit" onclick="myFunction(event);"
+        class="form-btn">
+      </form>
+    </section>

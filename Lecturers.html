@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Section2</title>
+        <link rel="stylesheet" href="style.css" />
+        <script src="main.js"></script>
+    </head>
+<body>
+    <div class="heading">
+        <h2>Lecturer Online Site</h2>
+    </div><br><hr><br>
+
+    <form>
+        <label>Students List:</label>
+        <select id="Students">
+            <option value="">Tendai</option>
+            <option value="">Mark</option>
+            <option value="">Nigel</option>
+            <option value="">Theodore</option>
+            <option value="">O'Neil</option>
+            <option value="">James</option>
+            <option value="">Kennith</option>
+            <option value="">Richard</option>
+            <option value="">Mate</option>
+            <option value="">John</option>
+            <option value="">Louw</option>
+            <option value="">Adrian</option>
+            <option value="">Neelah</option>
+            <option value="">Steven</option>
+        </select><br><br>
+        
+        <label>Degree List:</label>
+        <select id="Degrees">
+            <option value="">Bachelor of Civil Engineering (BSc)</option>
+            <option value="">Bachelor of Commerce in Information Systems & Finance</option>
+            <option value="">Bachelor of Laws (L.L.B.)</option>
+            <option value="">BSc in IT or Compute</option>
+            <option value="">(BSc) in Electrical Engineering</option>
+        </select>
+
+        <div class="">
+            <ul>
+                <li> <a href="http://www.civil.uct.ac.za/civil/undergraduate-courses">Bachelor of Civil Engineering (BSc)</a></li>
+                <li> <a href="http://www.sit.uct.ac.za/sit/undergrad/bcom-is-finance">Bachelor of Commerce in Information Systems & Finance</a></li>
+                <li> <a href="http://www.law.uct.ac.za/course-list">Bachelor of Laws (L.L.B.)</a></li>
+                <li> <a href="http://www.sit.uct.ac.za/sit/undergrad/bsc-courses">BSc in IT or Compute</a></li>
+                <li> <a href="http://www.ee.uct.ac.za/bachelor-science-engineering-electrical-engineering">(BSc) in Electrical Engineering</a></li>
+            </ul>
+        </div>
+
+    </form>
+
+    <section class="student">
+
+      <h1 class="contact-heading">New Students Form</h1>
+
+      <form id="form" class="contact_form ">
+
+        <div class="input_group">
+          <label class="label">Full Name</label>
+          <input id="name" type="text" name="fullname" placeholder="Mark Rose" required/>          
+        </div>
+
+
+        <div class="input_group">
+          <label class="label">Email</label>
+          <input id="email" type="email" name="email" placeholder="softflex8@gmail.com" required/>
+        </div>
+
+        <div class="input_group">
+          <label class="label">Password</label>
+          <input id="password" type="password" name="password" placeholder="Enter Password" required/>
+        </div>
+
+
+        <div class="input_group">
+          <label class="label">Password_Check</label>
+          <input id="password_check" type="password" name="degree" placeholder="Re-Enter Password" required/>
+        </div>
+
+
+        <input name="submit" type="submit" value="Submit" onclick="myFunction(event);"
+        class="submit"/>
+
+
+      </form>
+    </section>
+
+
+</body>
+</html>
